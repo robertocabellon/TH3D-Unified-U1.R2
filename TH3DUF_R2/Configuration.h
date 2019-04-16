@@ -812,6 +812,8 @@
 //#define JUNCTION_DEVIATION_DISABLE
 //#define S_CURVE_ACCELERATION_DISABLE
 
+#define LCD_BED_LEVELING
+
 //================================================================================================
 // Language - This is provided for convenience and is unsupported with included product support.
 // We only test compile with English language. If you run into space issues disable some features.
