@@ -45,10 +45,10 @@
 #endif
 
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 120        // Seconds
-  #define THERMAL_PROTECTION_HYSTERESIS 4     // Degrees Celsius
-  #define WATCH_TEMP_PERIOD 120                // Seconds
-  #define WATCH_TEMP_INCREASE 4               // Degrees Celsius
+  #define THERMAL_PROTECTION_PERIOD 180        // Seconds
+  #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
+  #define WATCH_TEMP_PERIOD 180                // Seconds
+  #define WATCH_TEMP_INCREASE 10               // Degrees Celsius
 #endif
 
  
