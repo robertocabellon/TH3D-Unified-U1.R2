@@ -2735,6 +2735,14 @@ void lcd_quick_feedback(const bool clear_buttons) {
     //
     MENU_ITEM(gcode, MSG_DISABLE_STEPPERS, PSTR("M84"));
 
+
+
+    //
+    // PURGA MANUAL
+    //
+    MENU_ITEM(gcode, "Purga manual", PSTR("M83\nG1 E50 F200\nM83"));
+    
+  
     //
     // Change filament
     //
